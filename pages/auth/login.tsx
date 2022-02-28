@@ -34,6 +34,8 @@ export default function Login() {
     watch,
     formState: { errors },
   } = useForm();
+
+  // @ts-ignore
   const onSubmit = (data) => console.log(data);
   console.log(errors);
 
